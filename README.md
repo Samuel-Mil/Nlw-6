@@ -5,7 +5,7 @@ Projeto que estou desenvolvendo na semana nlw Nº6
 ## How to install
 
 - npm install
-- yarn orm migration:run
+- yarn typeorm migration:run
 
 ## Hashtags
 
