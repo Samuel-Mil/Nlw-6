@@ -5,14 +5,9 @@ class CreateUserController {
   async handle(req: Request, res: Response) {
     const { name, email, admin } = req.body;
     const createUserService = new CreateUserService();
+    const user = await createUserService.execute({ name, email, admin });
 
-    try {
-      const user = await createUserService.execute({ name, email, admin });
-
-      return res.json(user);
-    } catch (error) {
-      return res.json({ err: error.message }).status(406);
-    }
+    return res.json(user);
   }
 }
 

@@ -1,4 +1,4 @@
-# NLW Projeto da semana nlw Nº6
+# NLW Projeto da semana nlw Nº6 trilha node
 
 Projeto que estou desenvolvendo na semana nlw Nº6
 
@@ -11,3 +11,4 @@ Projeto que estou desenvolvendo na semana nlw Nº6
 
 - #together
 - #unidade
+- #todo
